@@ -65,6 +65,34 @@ public class MainUser extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jPanel1 = new javax.swing.JPanel();
+        pnlDetails = new javax.swing.JPanel();
+        lblAddress = new javax.swing.JLabel();
+        txtAddress = new javax.swing.JTextField();
+        txtPhone = new javax.swing.JTextField();
+        lblPhone = new javax.swing.JLabel();
+        txtEmail = new javax.swing.JTextField();
+        lblEmail = new javax.swing.JLabel();
+        lblBirthdate = new javax.swing.JLabel();
+        txtBirthdate = new javax.swing.JTextField();
+        lblBirthplace = new javax.swing.JLabel();
+        lblNationality = new javax.swing.JLabel();
+        cbCountry = new javax.swing.JComboBox<>();
+        cbNationality = new javax.swing.JComboBox<>();
+        jPanel2 = new javax.swing.JPanel();
+        pnlDetails1 = new javax.swing.JPanel();
+        lblAddress1 = new javax.swing.JLabel();
+        txtAddress1 = new javax.swing.JTextField();
+        txtPhone1 = new javax.swing.JTextField();
+        lblPhone1 = new javax.swing.JLabel();
+        txtEmail1 = new javax.swing.JTextField();
+        lblEmail1 = new javax.swing.JLabel();
+        lblBirthdate1 = new javax.swing.JLabel();
+        txtBirthdate1 = new javax.swing.JTextField();
+        lblBirthplace1 = new javax.swing.JLabel();
+        lblNationality1 = new javax.swing.JLabel();
+        cbCountry1 = new javax.swing.JComboBox<>();
+        cbNationality1 = new javax.swing.JComboBox<>();
         jSeparator1 = new javax.swing.JSeparator();
         tpUserInfo = new javax.swing.JTabbedPane();
         pnlUserInfo = new javax.swing.JPanel();
@@ -73,6 +101,204 @@ public class MainUser extends javax.swing.JFrame {
         txtName = new javax.swing.JTextField();
         txtSurname = new javax.swing.JTextField();
         btnSave = new javax.swing.JButton();
+
+        lblAddress.setBackground(new java.awt.Color(255, 255, 255));
+        lblAddress.setText("Address");
+        lblAddress.setToolTipText("Enter your name");
+
+        lblPhone.setBackground(new java.awt.Color(255, 255, 255));
+        lblPhone.setText("Phone");
+        lblPhone.setToolTipText("Enter your name");
+
+        lblEmail.setBackground(new java.awt.Color(255, 255, 255));
+        lblEmail.setText("Email");
+        lblEmail.setToolTipText("Enter your name");
+
+        lblBirthdate.setBackground(new java.awt.Color(255, 255, 255));
+        lblBirthdate.setText("Birthdate");
+        lblBirthdate.setToolTipText("Enter your name");
+
+        lblBirthplace.setBackground(new java.awt.Color(255, 255, 255));
+        lblBirthplace.setText("Birthplace");
+        lblBirthplace.setToolTipText("Enter your name");
+
+        lblNationality.setBackground(new java.awt.Color(255, 255, 255));
+        lblNationality.setText("Nationality");
+        lblNationality.setToolTipText("Enter your name");
+
+        cbNationality.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Azerbaijan", "America" }));
+
+        javax.swing.GroupLayout pnlDetailsLayout = new javax.swing.GroupLayout(pnlDetails);
+        pnlDetails.setLayout(pnlDetailsLayout);
+        pnlDetailsLayout.setHorizontalGroup(
+            pnlDetailsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlDetailsLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(pnlDetailsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(lblAddress, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblPhone, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblEmail, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblBirthdate, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblBirthplace, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblNationality, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(12, 12, 12)
+                .addGroup(pnlDetailsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(cbNationality, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(cbCountry, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(txtAddress)
+                    .addComponent(txtPhone)
+                    .addComponent(txtEmail)
+                    .addComponent(txtBirthdate))
+                .addContainerGap(353, Short.MAX_VALUE))
+        );
+        pnlDetailsLayout.setVerticalGroup(
+            pnlDetailsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlDetailsLayout.createSequentialGroup()
+                .addGroup(pnlDetailsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtAddress, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblAddress))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(pnlDetailsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtPhone, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblPhone))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(pnlDetailsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtEmail, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblEmail))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(pnlDetailsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtBirthdate, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblBirthdate))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(pnlDetailsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblBirthplace)
+                    .addComponent(cbCountry, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(pnlDetailsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblNationality)
+                    .addComponent(cbNationality, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(0, 244, Short.MAX_VALUE))
+        );
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 584, Short.MAX_VALUE)
+            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel1Layout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(pnlDetails, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 432, Short.MAX_VALUE)
+            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel1Layout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(pnlDetails, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+        );
+
+        lblAddress1.setBackground(new java.awt.Color(255, 255, 255));
+        lblAddress1.setText("Address");
+        lblAddress1.setToolTipText("Enter your name");
+
+        lblPhone1.setBackground(new java.awt.Color(255, 255, 255));
+        lblPhone1.setText("Phone");
+        lblPhone1.setToolTipText("Enter your name");
+
+        lblEmail1.setBackground(new java.awt.Color(255, 255, 255));
+        lblEmail1.setText("Email");
+        lblEmail1.setToolTipText("Enter your name");
+
+        lblBirthdate1.setBackground(new java.awt.Color(255, 255, 255));
+        lblBirthdate1.setText("Birthdate");
+        lblBirthdate1.setToolTipText("Enter your name");
+
+        lblBirthplace1.setBackground(new java.awt.Color(255, 255, 255));
+        lblBirthplace1.setText("Birthplace");
+        lblBirthplace1.setToolTipText("Enter your name");
+
+        lblNationality1.setBackground(new java.awt.Color(255, 255, 255));
+        lblNationality1.setText("Nationality");
+        lblNationality1.setToolTipText("Enter your name");
+
+        cbNationality1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Azerbaijan", "America" }));
+
+        javax.swing.GroupLayout pnlDetails1Layout = new javax.swing.GroupLayout(pnlDetails1);
+        pnlDetails1.setLayout(pnlDetails1Layout);
+        pnlDetails1Layout.setHorizontalGroup(
+            pnlDetails1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlDetails1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(pnlDetails1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(lblAddress1, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblPhone1, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblEmail1, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblBirthdate1, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblBirthplace1, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblNationality1, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(12, 12, 12)
+                .addGroup(pnlDetails1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(cbNationality1, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(cbCountry1, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(txtAddress1)
+                    .addComponent(txtPhone1)
+                    .addComponent(txtEmail1)
+                    .addComponent(txtBirthdate1))
+                .addContainerGap(353, Short.MAX_VALUE))
+        );
+        pnlDetails1Layout.setVerticalGroup(
+            pnlDetails1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlDetails1Layout.createSequentialGroup()
+                .addGroup(pnlDetails1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtAddress1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblAddress1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(pnlDetails1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtPhone1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblPhone1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(pnlDetails1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtEmail1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblEmail1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(pnlDetails1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtBirthdate1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblBirthdate1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(pnlDetails1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblBirthplace1)
+                    .addComponent(cbCountry1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(pnlDetails1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblNationality1)
+                    .addComponent(cbNationality1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(0, 244, Short.MAX_VALUE))
+        );
+
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 584, Short.MAX_VALUE)
+            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel2Layout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(pnlDetails1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+        );
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 432, Short.MAX_VALUE)
+            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel2Layout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(pnlDetails1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+        );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -202,12 +428,40 @@ public class MainUser extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnSave;
+    private javax.swing.JComboBox<Country> cbCountry;
+    private javax.swing.JComboBox<Country> cbCountry1;
+    private javax.swing.JComboBox<String> cbNationality;
+    private javax.swing.JComboBox<String> cbNationality1;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
     private javax.swing.JSeparator jSeparator1;
+    private javax.swing.JLabel lblAddress;
+    private javax.swing.JLabel lblAddress1;
+    private javax.swing.JLabel lblBirthdate;
+    private javax.swing.JLabel lblBirthdate1;
+    private javax.swing.JLabel lblBirthplace;
+    private javax.swing.JLabel lblBirthplace1;
+    private javax.swing.JLabel lblEmail;
+    private javax.swing.JLabel lblEmail1;
     private javax.swing.JLabel lblName;
+    private javax.swing.JLabel lblNationality;
+    private javax.swing.JLabel lblNationality1;
+    private javax.swing.JLabel lblPhone;
+    private javax.swing.JLabel lblPhone1;
     private javax.swing.JLabel lblSurname;
+    private javax.swing.JPanel pnlDetails;
+    private javax.swing.JPanel pnlDetails1;
     private javax.swing.JPanel pnlUserInfo;
     private javax.swing.JTabbedPane tpUserInfo;
+    private javax.swing.JTextField txtAddress;
+    private javax.swing.JTextField txtAddress1;
+    private javax.swing.JTextField txtBirthdate;
+    private javax.swing.JTextField txtBirthdate1;
+    private javax.swing.JTextField txtEmail;
+    private javax.swing.JTextField txtEmail1;
     private javax.swing.JTextField txtName;
+    private javax.swing.JTextField txtPhone;
+    private javax.swing.JTextField txtPhone1;
     private javax.swing.JTextField txtSurname;
     // End of variables declaration//GEN-END:variables
 }
